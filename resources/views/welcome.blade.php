@@ -9,9 +9,7 @@
     <meta name="description" content="Modern landing page built with tailus themer" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" media="(prefers-color-scheme: light)" />
     <link rel="icon" type="image/svg+xml" href="/darkfavicon.svg" media="(prefers-color-scheme: dark)" />
-    @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @endif
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
 
@@ -1043,6 +1041,5 @@
         </div>
     </footer>
     @vite(['resources/js/main.js'])
-</body>
 
 </html>
