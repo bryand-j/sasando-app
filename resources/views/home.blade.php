@@ -112,7 +112,7 @@
                                 </div>
                                 <div class="card variant-soft px-4 py-3">
                                     <div class="flex  items-center">
-                                        <div class="flex-none rounded-full btn bg-orange-200-100 p-1  flex ">
+                                        <div class="flex-none rounded-full btn bg-orange-200 p-1  flex ">
                                             <img width="24" height="24"
                                                 src="https://img.icons8.com/pulsar-gradient/48/flow-chart.png"
                                                 alt="organisasi" />
