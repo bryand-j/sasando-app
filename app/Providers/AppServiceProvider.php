@@ -20,6 +20,5 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //
-        $this->app['url']->forceRootUrl(env('NGROK_URL'));
     }
 }
