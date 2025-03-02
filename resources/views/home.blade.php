@@ -84,8 +84,8 @@
                         </div>
                         <div class="flex items-center w-auto justify-center ">
                             <div
-                                class="max-w-max grid gap-0.5  mt-10 grid-cols-1 sm:grid-cols-3 dark:[--ui-soft-bg:var(--ui-bg)]">
-                                <div class="card variant-soft px-4 py-3">
+                                class="max-w-max grid gap-0.5 grid-cols-4  mt-10  sm:grid-cols-3 dark:[--ui-soft-bg:var(--ui-bg)]">
+                                <div class="col-span-2 sm:col-span-1 card variant-soft px-4 py-3">
                                     <div class="flex  items-center">
                                         <div class="flex-none rounded-full btn bg-green-100 p-1  flex ">
                                             <img width="24" height="24"
@@ -97,7 +97,7 @@
                                     </div>
                                     <div class=" text-center text-title text-2xl font-bold">14785</div>
                                 </div>
-                                <div class="card variant-soft px-4 py-3">
+                                <div class="col-span-2 sm:col-span-1 card variant-soft px-4 py-3">
                                     <div class="flex  items-center">
                                         <div class="flex-none rounded-full btn bg-blue-200 p-1  flex ">
                                             <img width="24" height="24"
@@ -110,7 +110,8 @@
                                     </div>
                                     <div class=" text-center text-title text-2xl font-bold">564</div>
                                 </div>
-                                <div class="card variant-soft px-4 py-3">
+                                <div
+                                    class="col-start-2 sm:col-start-0 col-span-2 sm:col-span-1 card variant-soft px-4 py-3">
                                     <div class="flex  items-center">
                                         <div class="flex-none rounded-full btn bg-orange-200 p-1  flex ">
                                             <img width="24" height="24"
@@ -540,7 +541,8 @@
                                             </div>
                                         </div>
                                     </a></div>
-                                <div><a class="block" href="/dataset?topik=Ketertiban Umum dan Keselamatan">
+                                <div class="lg:col-start-2"><a class="block"
+                                        href="/dataset?topik=Ketertiban Umum dan Keselamatan">
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
@@ -556,7 +558,8 @@
                                             </div>
                                         </div>
                                     </a></div>
-                                <div><a class="block" href="/dataset?topik=Pertahanan dan Luar Negeri">
+                                <div class="lg:col-start-3"><a class="block"
+                                        href="/dataset?topik=Pertahanan dan Luar Negeri">
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
