@@ -14,7 +14,7 @@
 </head>
 
 <body
-    class="bg-white  dark:bg-gray-900 dark:before:fixed dark:before:-z-50 dark:before:inset-0 dark:before:bg-gray-950/50">
+    class="bg-gray-50  dark:bg-gray-950 dark:before:fixed dark:before:-z-50 dark:before:inset-0 dark:before:bg-gray-950/50">
     <x-header></x-header>
     {{ $slot }}
     <x-footer></x-footer>

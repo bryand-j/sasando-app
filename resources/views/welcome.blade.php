@@ -1,4 +1,135 @@
 <x-layout>
+    <section class="relative">
+        {{-- <video autoplay muted loop class="hero-bg opacity-30 dark:opacity-20"
+                style=" position: absolute; overflow-clip-margin: content-box;
+                overflow: clip; min-width: 100%;
+                min-height: 100vh;
+                max-width: 100%;
+                max-height: 100vh;
+                object-fit: cover;">
+                <source src="bg/ntt3.mp4" type="video/mp4" />
+            </video> --}}
+        <div class="relative pt-24 lg:pt-28">
+            <div class="mx-auto px-6 max-w-7xl md:px-12">
+                <div class="text-center sm:mx-auto sm:w-10/12 lg:mr-auto lg:mt-0 lg:w-4/5">
+
+                    <a href="https://tailtips.dev" target="_blank"
+                        class="annonce variant-outlined  gap-2 sz-sm w-fit mx-auto group">
+                        <span class="annonce-concern sz-xs variant-neutral">Baru</span>
+                        <span class="text-title text-nowrap text-sm line-clamp-1">
+                            Data Sekolah Kab. Ende 2025
+                        </span>
+                        <div
+                            class="ml-4 scale-75 flex items-center -space-x-3 group-hover:-translate-x-1 transition-transform duration-300">
+                            <span
+                                class="w-2.5 translate-y-[-0.3px] -translate-x-px opacity-0 h-[1.5px] rounded bg-gray-950 dark:bg-white origin-left scale-x-0 transition duration-300 group-hover:opacity-100 group-hover:scale-x-100"></span>
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                class="size-4 text-gray-950 dark:text-white -translate-x-2 transition duration-300 group-hover:translate-x-px"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </a>
+                    <h1
+                        class="mt-8 text-wrap text-4xl md:text-5xl font-bold text-title xl:text-5xl xl:[line-height:1.125]">
+                        S A S A N D O <br class="hidden sm:block">
+                        <div class="text-3xl"> Sistem Analisis dan Statistik Data Integrasi Online.</div>
+                    </h1>
+                    <p class="text-wrap mx-auto mt-8 max-w-2xl text-lg hidden sm:block text-body">Temukan dataset,
+                        visualisasi, infografik, artikel, dan mapset dengan cepat, mudah, dan akurat</p>
+
+                    <div class="mt-8 flex flex-col items-center justify-center gap-4">
+                        <div class="w-full">
+                            <form action="" class="max-w-xl mx-auto  my-10 lg:my-12">
+                                <div
+                                    class="relative grid bg-ui [grid-template-columns:1fr_auto] items-center border pr-3 shadow shadow-gray-950/5 rounded-[calc(var(--btn-radius)+0.75rem)] outline-2 outline-offset-2 outline-primary-600 has-[input:focus]:outline">
+
+                                    <svg class="absolute inset-y-0 left-5 my-auto size-5 pointer-events-none text-caption"
+                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" fill="none" viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                                            d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+                                    </svg>
+
+
+                                    <input autocomplete="email" placeholder="Cari Dataset.."
+                                        class="pl-12 h-14 w-full bg-transparent focus:outline-none" type="email">
+                                    <div class="md:pr-1.5 lg:pr-0">
+                                        <button title="Start buying" class="btn w-fit variant-primary sz-md">
+                                            <span class="btn-label hidden md:block">
+                                                Cari
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="relative size-5 mx-auto md:hidden" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="-mx-6 relative mt-8 sm:mt-12 max-w-4xl sm:mx-auto pb-36 ">
+                    <div
+                        class="absolute inset-0 -top-8 left-1/2 -z-20 h-56 w-full -translate-x-1/2 dark:opacity-10 [background-image:linear-gradient(to_bottom,transparent_98%,theme(colors.gray.200/75%)_98%),linear-gradient(to_right,transparent_94%,_theme(colors.gray.200/75%)_94%)] [background-size:16px_35px] [mask:radial-gradient(black,transparent_95%)]">
+                    </div>
+                    <div
+                        class="absolute top-12 inset-x-0 w-2/3 h-1/3 -z-[1] rounded-full bg-primary-300 dark:bg-white/20 mx-auto blur-3xl">
+                    </div>
+                    <div class="flex items-center w-auto justify-center ">
+                        <div
+                            class="max-w-max grid gap-0.5 grid-cols-4  mt-10  sm:grid-cols-3 dark:[--ui-soft-bg:var(--ui-bg)]">
+                            <div class="col-span-2 sm:col-span-1 card variant-soft px-4 py-3">
+                                <div class="flex  items-center">
+                                    <div class="flex-none rounded-full btn bg-green-100 p-1  flex ">
+                                        <img width="24" height="24"
+                                            src="https://img.icons8.com/lollipop/96/xls.png" alt="xls" />
+
+                                    </div>
+                                    <p class="text-body ps-2">Total Dataset</p>
+
+                                </div>
+                                <div class=" text-center text-title text-2xl font-bold">14785</div>
+                            </div>
+                            <div class="col-span-2 sm:col-span-1 card variant-soft px-4 py-3">
+                                <div class="flex  items-center">
+                                    <div class="flex-none rounded-full btn bg-blue-200 p-1  flex ">
+                                        <img width="24" height="24"
+                                            src="https://img.icons8.com/fluency/48/combo-chart--v1.png"
+                                            alt="combo-chart--v1" />
+
+                                    </div>
+                                    <p class="text-body ps-2">Total Infografik</p>
+
+                                </div>
+                                <div class=" text-center text-title text-2xl font-bold">564</div>
+                            </div>
+                            <div
+                                class="col-start-2 sm:col-start-0 col-span-2 sm:col-span-1 card variant-soft px-4 py-3">
+                                <div class="flex  items-center">
+                                    <div class="flex-none rounded-full btn bg-orange-200 p-1  flex ">
+                                        <img width="24" height="24"
+                                            src="https://img.icons8.com/pulsar-gradient/48/flow-chart.png"
+                                            alt="organisasi" />
+
+                                    </div>
+                                    <p class="text-body ps-2">Total Organisasi</p>
+
+                                </div>
+                                <div class=" text-center text-title text-2xl font-bold">154</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <main class="overflow-hidden">
         <section class="relative">
             <video autoplay muted loop class="hero-bg opacity-30 dark:opacity-20"
@@ -54,7 +185,8 @@
 
 
                                         <input autocomplete="email" placeholder="Cari Dataset.."
-                                            class="pl-12 h-14 w-full bg-transparent focus:outline-none" type="email">
+                                            class="pl-12 h-14 w-full bg-transparent focus:outline-none"
+                                            type="email">
                                         <div class="md:pr-1.5 lg:pr-0">
                                             <button title="Start buying" class="btn w-fit variant-primary sz-md">
                                                 <span class="btn-label hidden md:block">
@@ -114,7 +246,8 @@
                                 class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-warning-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5">
                             </div>
                             <div class="relative">
-                                <div class="badge variant-outlined flex relative *:relative *:size-6 *:m-auto size-12 ">
+                                <div
+                                    class="badge variant-outlined flex relative *:relative *:size-6 *:m-auto size-12 ">
                                     <svg class="text-title" xmlns="http://www.w3.org/2000/svg" width="1em"
                                         height="1em" viewBox="0 0 128 128">
                                         <defs>
