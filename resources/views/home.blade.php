@@ -42,7 +42,8 @@
                                     <input autocomplete="search" placeholder="Cari Dataset.."
                                         class="pl-12 h-14 w-full bg-transparent focus:outline-none" type="text">
                                     <div class="md:pr-1.5 lg:pr-0">
-                                        <button title="Start buying" class="btn w-fit variant-primary sz-md">
+                                        <button title="Start buying"
+                                            class="btn w-fit bg-primary-500 text-white variant-soft sz-md">
                                             <span class="btn-label hidden md:block">
                                                 Cari
                                             </span>

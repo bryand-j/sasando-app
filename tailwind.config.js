@@ -15,12 +15,12 @@ export default {
         
         extend: {
             colors: ({ colors }) => ({
-            primary : colors.indigo,
-            danger : colors.rose,
+             primary : colors.yellow,
+            danger : colors.red,
             warning : colors.yellow,
-            success : colors.lime,
+            success : colors.green,
             info : colors.blue,
-            gray : colors.zinc,
+            gray : colors.stone,
         }),
         }
         
