@@ -56,3 +56,11 @@ function setCustomization(document) {
 }
 setCustomization(document)
 
+import { Dropdown } from '@flexilla/dropdown'
+
+new Dropdown('#myDropdown', {
+  offsetDistance: 8,
+  placement: 'bottom-middle',
+  triggerStrategy:"hover", 
+ 
+})

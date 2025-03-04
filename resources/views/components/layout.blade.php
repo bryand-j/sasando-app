@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-shade="glassy" data-rounded="3xlarge" lang="en" data-theme="dark">
+<html data-shade="glassy" data-rounded="3xlarge" class="scroll-smooth" lang="en" data-theme="dark">
 
 <head>
 
