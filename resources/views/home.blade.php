@@ -352,7 +352,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="pb-10">
             <div class="pt-36">
                 <div class="mx-auto px-6 max-w-6xl">
                     <div class="text-center">
@@ -367,7 +367,7 @@
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined  text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
-                                                <div class="rounded-lg bg-red-100 p-2 text-red-500">
+                                                <div class="rounded-lg  bg-primary-200 p-2 text-primary-500">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -390,7 +390,7 @@
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
-                                                <div class="rounded-lg bg-red-100 p-2 text-red-500"><svg
+                                                <div class="rounded-lg  bg-primary-200 p-2 text-primary-500"><svg
                                                         xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -411,7 +411,7 @@
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
-                                                <div class="rounded-lg bg-red-100 p-2 text-red-500"><svg
+                                                <div class="rounded-lg  bg-primary-200 p-2 text-primary-500"><svg
                                                         xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -437,7 +437,7 @@
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
-                                                <div class="rounded-lg bg-red-100 p-2 text-red-500"><svg
+                                                <div class="rounded-lg  bg-primary-200 p-2 text-primary-500"><svg
                                                         xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -454,7 +454,7 @@
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
-                                                <div class="rounded-lg bg-red-100 p-2 text-red-500"><svg
+                                                <div class="rounded-lg  bg-primary-200 p-2 text-primary-500"><svg
                                                         xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -473,7 +473,7 @@
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
-                                                <div class="rounded-lg bg-red-100 p-2 text-red-500"><svg
+                                                <div class="rounded-lg  bg-primary-200 p-2 text-primary-500"><svg
                                                         xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -492,7 +492,7 @@
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
-                                                <div class="rounded-lg bg-red-100 p-2 text-red-500"><svg
+                                                <div class="rounded-lg  bg-primary-200 p-2 text-primary-500"><svg
                                                         xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -518,7 +518,7 @@
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
-                                                <div class="rounded-lg bg-red-100 p-2 text-red-500"><svg
+                                                <div class="rounded-lg  bg-primary-200 p-2 text-primary-500"><svg
                                                         xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -539,7 +539,7 @@
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
-                                                <div class="rounded-lg bg-red-100 p-2 text-red-500"><svg
+                                                <div class="rounded-lg bg-primary-200 p-2 text-primary-500"><svg
                                                         xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -556,7 +556,7 @@
                                         <div
                                             class="rounded-xl p-0 border card variant-outlined text-card-foreground shadow transition-all hover:shadow-lg">
                                             <div class="flex items-center gap-4 p-6">
-                                                <div class="rounded-lg bg-red-100 p-2 text-red-500"><svg
+                                                <div class="rounded-lg bg-primary-200 p-2 text-primary-500"><svg
                                                         xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
