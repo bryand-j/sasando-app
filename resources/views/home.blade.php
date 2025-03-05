@@ -58,7 +58,7 @@
                                 </div>
                             </form>
                             <div
-                                class="max-w-max grid gap-0.5 grid-cols-4  mt-10  sm:grid-cols-3 dark:[--ui-soft-bg:var(--ui-bg)] ">
+                                class="max-w-xl grid gap-0.5 grid-cols-4  mt-10  sm:grid-cols-3 dark:[--ui-soft-bg:var(--ui-bg)] ">
                                 <div
                                     class="col-span-2 sm:col-span-1 card text-white bg-primary-500 shadow-lg px-4 py-5">
                                     <div class="flex  items-center">

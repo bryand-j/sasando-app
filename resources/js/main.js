@@ -2,9 +2,16 @@ import "../css/app.css";
 
 const mainHeader = document.querySelector("#header");
 const menuBtn = document.querySelector("#menu-btn");
+const nav= document.querySelector("#nav")
 
 menuBtn.addEventListener("click", () => {
   mainHeader.dataset.state = mainHeader.dataset.state === "active" ? "closed" : "active";
+  if (mainHeader.dataset.state === "active") {
+    nav.classList.remove("overflow-hidden")
+  }
+  else{
+    nav.classList.add("overflow-hidden")
+  }
 })
 
 let switchers = document.querySelectorAll(".switcher");
@@ -56,11 +63,44 @@ function setCustomization(document) {
 }
 setCustomization(document)
 
-import { Dropdown } from '@flexilla/dropdown'
+// import { Dropdown } from '@flexilla/dropdown'
 
-new Dropdown('#myDropdown', {
-  offsetDistance: 8,
-  placement: 'bottom-middle',
-  triggerStrategy:"hover", 
+// new Dropdown('#myDropdown', {
+//   placement: 'bottom-left',
+//   triggerStrategy:"hover", 
  
-})
+// })
+
+  const dropdownToggles = document.querySelectorAll(".dropdown-toggle")
+
+  dropdownToggles.forEach((toggle) => {
+    toggle.addEventListener("mouseover", () => {
+      // Find the next sibling element which is the dropdown menu
+      const dropdownMenu = toggle.nextElementSibling
+      // Toggle the 'hidden' class to show or hide the dropdown menu
+      if (dropdownMenu.classList.contains("hidden")) {
+        // Hide any open dropdown menus before showing the new one
+        document.querySelectorAll(".dropdown-menu").forEach((menu) => {
+          menu.classList.add("hidden")
+        })
+        console.log('show')
+        dropdownMenu.classList.remove("hidden")
+      } else {
+        dropdownMenu.classList.add("hidden")
+        console.log("show")
+      }
+    })
+  })
+
+  // Clicking outside of an open dropdown menu closes it
+  window.addEventListener("mouseover", function (e) {
+    if (!e.target.matches(".dropdown-toggle")) {
+      document.querySelectorAll(".dropdown-menu").forEach((menu) => {
+        if (!menu.contains(e.target)) {
+          menu.classList.add("hidden")
+          console.log("hidden")
+        }
+      })
+    }
+  })
+  

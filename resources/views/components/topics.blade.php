@@ -7,7 +7,7 @@
             </div>
             <div class="mt-12 relative w-full h-fit sm:mx-auto sm:px-0 -mx-6 px-6 ">
                 <div>
-                    <div class=" grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-center">
+                    <div class=" grid grid-cols-1 gap-4  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-center">
                         <div>
                             <a class="block transition ease-in-out hover:-translate-y-1 hover:scale-110"
                                 href="/dataset?topik=Lingkungan dan Sumber Daya Alam hover:tra">
