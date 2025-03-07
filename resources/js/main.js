@@ -1,5 +1,6 @@
 import "../css/app.css";
 
+
 const mainHeader = document.querySelector("#header");
 const menuBtn = document.querySelector("#menu-btn");
 const nav= document.querySelector("#nav")
@@ -74,7 +75,7 @@ setCustomization(document)
   const dropdownToggles = document.querySelectorAll(".dropdown-toggle")
 
   dropdownToggles.forEach((toggle) => {
-    toggle.addEventListener("mouseover", () => {
+    toggle.addEventListener("click", () => {
       // Find the next sibling element which is the dropdown menu
       const dropdownMenu = toggle.nextElementSibling
       // Toggle the 'hidden' class to show or hide the dropdown menu
@@ -83,24 +84,39 @@ setCustomization(document)
         document.querySelectorAll(".dropdown-menu").forEach((menu) => {
           menu.classList.add("hidden")
         })
-        console.log('show')
         dropdownMenu.classList.remove("hidden")
       } else {
         dropdownMenu.classList.add("hidden")
-        console.log("show")
       }
     })
   })
 
   // Clicking outside of an open dropdown menu closes it
-  window.addEventListener("mouseover", function (e) {
+  window.addEventListener("click", function (e) {
     if (!e.target.matches(".dropdown-toggle")) {
       document.querySelectorAll(".dropdown-menu").forEach((menu) => {
         if (!menu.contains(e.target)) {
           menu.classList.add("hidden")
-          console.log("hidden")
         }
       })
     }
   })
+
+const searchInput = document.querySelectorAll('.search-input');
+searchInput.forEach((input) => {
+input.addEventListener('input', () => {
+    const searchTerm = input.value.toLowerCase();
+    const items = input.nextElementSibling.nodeName
+    
+    console.log(items)
+    items.forEach((item) => {
+        const text = item.textContent.toLowerCase();
+        if (text.includes(searchTerm)) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+});
+})
   

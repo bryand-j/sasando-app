@@ -77,6 +77,11 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="/category" class="hover:link md:px-4 block">
+                                    <span>Perangkat</span>
+                                </a>
+                            </li>
+                            <li>
                                 <div class="relative z-40">
                                     <a class="dropdown-toggle hover:link md:px-4 flex items-center">
                                         <span class="pointer-events-none select-none">Kota/Kab</span>

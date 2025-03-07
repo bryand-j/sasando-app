@@ -16,7 +16,10 @@
 <body
     class="bg-gray-50  dark:bg-gray-950 dark:before:fixed dark:before:-z-50 dark:before:inset-0 dark:before:bg-gray-950/50">
     <x-header></x-header>
-    {{ $slot }}
+    <main class="overflow-hidden">
+        {{ $slot }}
+
+    </main>
     <x-footer></x-footer>
 
     @vite(['resources/js/main.js'])

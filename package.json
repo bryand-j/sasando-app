@@ -21,6 +21,7 @@
     "dependencies": {
         "@flexilla/dropdown": "^2.0.5",
         "@tailus/themer": "^0.1.8",
+        "preline": "^3.0.0",
         "swiper": "^11.0.6"
     }
 }
